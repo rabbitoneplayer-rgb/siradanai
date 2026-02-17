@@ -8,7 +8,7 @@
 <body>
 <h1>สิรดนัย ชุมพล(โฟกัส)</h1>
 
-<form method="post" action=""endtype"multipart/from-data">
+<form method="post" action=""endtype"multipart/form-data">
 	ชื่อจังหวัด <input type="text" name = "rname" autofocus required> <br>
     รูปภาพ <input type="file" name="pimage"> <br>
     ชื่อภาค
@@ -76,6 +76,7 @@ if(isset($_POST['Submit'])) {
 
 </body>
 </html>
+
 
 
 
