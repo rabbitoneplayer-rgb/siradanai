@@ -44,7 +44,7 @@ if(isset($_POST['Submit'])) {
     	<td><?php echo $data['r_id'];?></td> 
 		<td><?php echo $data['r_name'];?></td>
 		<td width="50" align="center"><a href="delete_region.php?id=<?php echo 
-		$data[r_id];?>" onClick="return confirm('ยืนยันการลบ?');"><img src="images/del.jfif" width="20"></a></td>
+		$data['r_id'];?>" onClick="return confirm('ยืนยันการลบ?');"><img src="images/del.jfif" width="20"></a></td>
 	
     </tr>
  
@@ -52,6 +52,7 @@ if(isset($_POST['Submit'])) {
 </table>
 </body>
 </html>
+
 
 
 
