@@ -28,6 +28,7 @@ if(isset($_POST['Submit'])) {
 	<tr>
     	<th>รหัสภาค</th> 
 		<th>ชื่อภาค</th>
+		<th>ลบ</th>
     </tr>
 
 <?php 
@@ -42,9 +43,11 @@ if(isset($_POST['Submit'])) {
     <tr>
     	<td><?php echo $data['r_id'];?></td> 
 		<td><?php echo $data['r_name'];?></td>
+		<td>xxxx</td>
     </tr>
  
 <?php } ?>
 </table>
 </body>
 </html>
+
